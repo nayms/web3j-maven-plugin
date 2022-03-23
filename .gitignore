@@ -62,6 +62,7 @@ buildNumber.properties
 .idea/**/vcs.xml
 .idea/**/*.iml
 /*.iml
+.idea
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
