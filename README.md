@@ -13,9 +13,9 @@ the java classes into the folder `src/main/java`.
 <build>
     <plugins>
         <plugin>
-            <groupId>org.web3j</groupId>
+            <groupId>io.nayms</groupId>
             <artifactId>web3j-maven-plugin</artifactId>
-            <version>4.8.7</version>
+            <version>4.8.8</version>
             <configuration>
                 <soliditySourceFiles/>
             </configuration>
@@ -57,9 +57,9 @@ Create a standard java maven project. Add following `<plugin>` - configuration i
 
 ```xml
 <plugin>
-    <groupId>org.web3j</groupId>
+    <groupId>io.nayms</groupId>
     <artifactId>web3j-maven-plugin</artifactId>
-    <version>4.8.1</version>
+    <version>4.8.8</version>
     <configuration>
         <packageName>com.zuehlke.blockchain.model</packageName>
         <sourceDestination>src/main/java/generated</sourceDestination>
